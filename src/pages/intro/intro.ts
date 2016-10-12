@@ -13,6 +13,25 @@ import { NavController } from 'ionic-angular';
 })
 export class Intro {
 
+	slides = [
+    {
+      title: "Sign up Successfully.",
+      description: "Explore some of the functions.",
+      image: "assets/images/slidebox_0.png",
+    },
+    {
+      title: "Schedule",
+      description: "Check your care receivers' shedule anywhere at any time.",
+      image: "assets/images/slidebox_1.png",
+    },
+    {
+      title: "Pharmacy",
+      description: "This is where you can check your care recivers' shedule.",
+      image: "assets/images/slidebox_2.png",
+    }
+  ];
+
+
   constructor(public navCtrl: NavController) {}
 
   ionViewDidLoad() {

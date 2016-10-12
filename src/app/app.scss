@@ -25,16 +25,20 @@ $white: #ffffff; // White
 $black: #252525; // Mild Black
 $gray:#c8c7cc; //horizontal line light gray
 
-$quarter-width:25%;
-$half-width:50%;
-$pull-width:100%;
 
 $facebook:#39579d;
 $twitter:#5fa8dd;
 $facebook:#35455c;
 
-// Variables End
 
+$quarter-width:25%;
+$half-width:50%;
+$pull-width:100%;
+
+$pos-ab:absolute;
+$pos-rel:relative;
+$hide:none;
+// Variables End
 
 
 
@@ -71,7 +75,8 @@ p{
 
 ion-header, //common header
 .toolbar-background, // common header
-page-home > ion-content // login page 
+page-login ion-content, // login page 
+page-intro ion-content // intro page
 {
 
 background: $primary-color; 

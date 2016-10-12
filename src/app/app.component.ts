@@ -6,7 +6,7 @@ import { Home } from '../pages/home/home';
 import { Signup } from '../pages/signup/signup';
 import { Login } from '../pages/login/login';
 import { ForgotPassword } from '../pages/forgot-password/forgot-password';
-
+import { Intro } from '../pages/intro/intro';
 
 
 @Component({
@@ -15,7 +15,7 @@ import { ForgotPassword } from '../pages/forgot-password/forgot-password';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = ForgotPassword;
+  rootPage: any = Home;
 
   pages: Array<{title: string, component: any}>;
 
@@ -27,7 +27,8 @@ export class MyApp {
       { title: 'Home', component: Home },
       { title: 'Signup', component: Signup },
       { title: 'Login', component: Login },
-      { title: 'ForgotPassword', component: ForgotPassword }
+      { title: 'ForgotPassword', component: ForgotPassword },
+      { title: 'Intro', component: Intro }
     ];
 
   }

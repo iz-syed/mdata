@@ -6,7 +6,9 @@ ion-label { text-transform: capitalize; }
 
 	.cutter {
 		 height: 2px;
-		 background-color:$gray;position:relative;margin:10px 0;
+		 background-color:$gray;
+		 position:relative;
+		 margin:10px 0;
 			 &:before {
 				 content:"or";
 				 width:26px;
@@ -56,6 +58,10 @@ ion-label { text-transform: capitalize; }
 }
 .new-user button {
     color:$black;
+}
+
+.item {
+	background-color: transparent;
 }
   
 
