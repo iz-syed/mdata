@@ -6,7 +6,7 @@ ion-label { text-transform: capitalize; }
 
 	.cutter {
 		 height: 2px;
-		 background-color:$gray;position:relative;
+		 background-color:$gray;position:relative;margin:10px 0;
 			 &:before {
 				 content:"or";
 				 width:26px;
@@ -29,7 +29,7 @@ ion-label { text-transform: capitalize; }
 
 .social-media{
 	text-align: center;
-    margin: 30px 0;
+    margin: 30px 0 10px;
 }
 
 .social-media ion-icon {
@@ -42,7 +42,21 @@ ion-label { text-transform: capitalize; }
     text-align: center;
     color: #fff; margin: 0 4%;
   }
-  .fpwd{position: absolute; right: 0px; background-color:gray;}
+  .reseat-pwd {
+    position:$pos-ab;
+    right: 0;
+    background: #e5e5e5;
+    width: 30px;
+    padding: 0px;
+    height: 30px;
+    text-align: center;color: #252525;
+    z-index: 9;bottom: 0px;
+    @include border-radius($half-width);
+    
+}
+.new-user button {
+    color:$black;
+}
   
 
 }

@@ -4,13 +4,15 @@ import { MyApp } from './app.component';
 import { Home } from '../pages/home/home';
 import { Signup } from '../pages/signup/signup';
 import { Login } from '../pages/login/login';
+import { ForgotPassword } from '../pages/forgot-password/forgot-password';
 
 @NgModule({
   declarations: [
     MyApp,
     Home,
     Signup,
-    Login
+    Login,
+    ForgotPassword
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -20,7 +22,8 @@ import { Login } from '../pages/login/login';
     MyApp,
     Home,
     Signup,
-    Login
+    Login,
+    ForgotPassword
   ],
   providers: []
 })

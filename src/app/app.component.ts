@@ -5,6 +5,8 @@ import { StatusBar } from 'ionic-native';
 import { Home } from '../pages/home/home';
 import { Signup } from '../pages/signup/signup';
 import { Login } from '../pages/login/login';
+import { ForgotPassword } from '../pages/forgot-password/forgot-password';
+
 
 
 @Component({
@@ -13,7 +15,7 @@ import { Login } from '../pages/login/login';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = Home;
+  rootPage: any = ForgotPassword;
 
   pages: Array<{title: string, component: any}>;
 
@@ -24,7 +26,8 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: Home },
       { title: 'Signup', component: Signup },
-       { title: 'Login', component: Login }
+      { title: 'Login', component: Login },
+      { title: 'ForgotPassword', component: ForgotPassword }
     ];
 
   }
