@@ -66,11 +66,6 @@ p{
 .position-r{position: relative;}
 
 
-
-
-
-
-
 // Gradient assets
 
 ion-header, //common header
@@ -78,7 +73,8 @@ ion-header, //common header
 page-login ion-content, // login page 
 page-home ion-content, // home page
 signup ion-content, // signup page
-page-intro ion-content // intro page
+page-intro ion-content, // intro page
+page-fpwd ion-content
 {
 
 background: $primary-color; 
@@ -110,10 +106,6 @@ border:1px solid $white;
           border-radius: $radius;
 }
 
-
-
-
-
 .toolbar-title {
 	color:$white;
 }
@@ -121,4 +113,14 @@ border:1px solid $white;
 
 .test {
 	background-color:rgba ($black, 0.5)
+}
+
+form {
+	.item {
+		background-color:transparent
+	}
+
+	ion-label {
+		color:$white !important
+	}
 }

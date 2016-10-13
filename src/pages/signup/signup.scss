@@ -1,18 +1,12 @@
 page-signup {
-	
-	ion-label{
-			text-transform: capitalize;
-			color:$white }
-	
-	.list-ios > .item-block:first-child,.list-md > .item-block:first-child{
-		border-top:0px; }	
+		
+	.list .item-block:first-child  { 
+		border-top: 0px; }
 
 		form {
 			.list {
 				.item {
 					background: transparent;
-
-
 				}
 			}
 		}

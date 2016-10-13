@@ -2,13 +2,15 @@ page-login {
 
 ion-label { text-transform: capitalize; }
 
-.list-ios > .item-block:first-child, .list-md > .item-block:first-child { border-top: 0px; }
+	.list .item-block:first-child  { 
+		border-top: 0px; }
 
 	.cutter {
 		 height: 2px;
 		 background-color:$gray;
 		 position:relative;
 		 margin:10px 0;
+			 
 			 &:before {
 				 content:"or";
 				 width:26px;
@@ -26,43 +28,38 @@ ion-label { text-transform: capitalize; }
 				 line-height: 24px;
 				 font-size: 18px;
 				  @include border-radius($half-width);
-			}
-	}
+			} // cutter:before
+	} // cutter
 
-.social-media{
-	text-align: center;
-    margin: 30px 0 10px;
-}
+	.social-media{
+		text-align: center;
+	    margin: 30px 0 10px; }
 
-.social-media ion-icon {
-    font-size: 1.8em;
-    width: 40px;
-    height: 40px;
-    background:$black;
-    @include border-radius($half-width);
-    line-height: 40px;
-    text-align: center;
-    color: #fff; margin: 0 4%;
-  }
-  .reseat-pwd {
-    position:$pos-ab;
-    right: 0;
-    background: #e5e5e5;
-    width: 30px;
-    padding: 0px;
-    height: 30px;
-    text-align: center;color: #252525;
-    z-index: 9;bottom: 0px;
-    @include border-radius($half-width);
-    
-}
-.new-user button {
-    color:$black;
-}
+	.social-media ion-icon {
+	    font-size: 1.8em;
+	    width: 40px;
+	    height: 40px;
+	    background:$black;
+	    line-height: 40px;
+	    text-align: center;
+	    color: #fff; margin: 0 4%;
+	    @include border-radius($half-width);
+	  }
 
-.item {
-	background-color: transparent;
-}
-  
+	  .reseat-pwd {
+	    position:$pos-ab;
+	    right: 0;
+	    background: #e5e5e5;
+	    width: 30px;
+	    padding: 0px;
+	    height: 30px;
+	    text-align: center;color: #252525;
+	    z-index: 9;bottom: 0px;
+	    @include border-radius($half-width); }
 
+	.new-user button {
+	    color:$black; }
+
+	.item {
+		background-color: transparent; }
 }
