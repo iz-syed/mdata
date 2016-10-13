@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+import { ForgotPassword } from '../forgot-password/forgot-password';
 /*
   Generated class for the Login page.
 
@@ -12,7 +13,7 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'login.html'
 })
 export class Login {
-
+  forgot = ForgotPassword;
   constructor(public navCtrl: NavController) {}
 
   ionViewDidLoad() {
