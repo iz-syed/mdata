@@ -6,6 +6,14 @@ import { Signup } from '../pages/signup/signup';
 import { Login } from '../pages/login/login';
 import { ForgotPassword } from '../pages/forgot-password/forgot-password';
 import { Intro } from '../pages/intro/intro';
+import { Oppill } from '../pages/oppill/oppill';
+import { Medictation } from '../pages/medictation/medictation';
+import { MedicationDetails } from '../pages/medication-details/medication-details';
+import { Tablets } from '../pages/tablets/tablets';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -14,7 +22,11 @@ import { Intro } from '../pages/intro/intro';
     Signup,
     Login,
     ForgotPassword,
-    Intro
+    Intro,
+    Oppill,
+    Medictation,
+    MedicationDetails,
+    Tablets
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -26,7 +38,11 @@ import { Intro } from '../pages/intro/intro';
     Signup,
     Login,
     ForgotPassword,
-    Intro
+    Intro,
+    Oppill,
+    Medictation,
+    MedicationDetails,
+    Tablets
   ],
   providers: []
 })

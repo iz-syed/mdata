@@ -7,6 +7,15 @@ import { Signup } from '../pages/signup/signup';
 import { Login } from '../pages/login/login';
 import { ForgotPassword } from '../pages/forgot-password/forgot-password';
 import { Intro } from '../pages/intro/intro';
+import { Oppill } from '../pages/oppill/oppill';
+import { Medictation } from '../pages/medictation/medictation';
+import { MedicationDetails } from '../pages/medication-details/medication-details';
+import { Tablets } from '../pages/tablets/tablets';
+
+
+
+
+
 
 
 @Component({
@@ -24,9 +33,15 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
+      { title: 'Home', component: Home },
       { title: 'Signup', component: Signup },
       { title: 'Login', component: Login },
-      { title: 'Intro', component: Intro }
+      { title: 'ForgotPassword', component: ForgotPassword },
+      { title: 'Intro', component: Intro },
+      {title: 'Oppill', component: Oppill },
+      {title: 'Medictation', component: Medictation },
+      {title: 'MedicationDetails', component: MedicationDetails },
+      {title: 'Tablets', component: Tablets }  
     ];
 
   }
