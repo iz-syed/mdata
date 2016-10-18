@@ -15,6 +15,14 @@
 
 
 <ion-content padding>
+
+	<ion-item>
+    <ion-range min="-200" max="200" [(ngModel)]="saturation" color="secondary">
+      <ion-label range-left>-200</ion-label>
+      <ion-label range-right>200</ion-label>
+    </ion-range>
+  </ion-item>
+  
 	<section class="tablet-count">
 		<button>
 		   1
