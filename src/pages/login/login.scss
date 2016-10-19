@@ -47,19 +47,34 @@ ion-label { text-transform: capitalize; }
 	  }
 
 	  .reseat-pwd {
-	    position:$pos-ab;
-	    right: 0;
-	    background: #e5e5e5;
-	    width: 30px;
-	    padding: 0px;
-	    height: 30px;
-	    text-align: center;color: #252525;
-	    z-index: 9;bottom: 0px;
+	    position: absolute;right:0;bottom:0;
+		background: #e5e5e5;
+		width: 26px;
+		padding: 0px;
+		height: 26px;
+		text-align: center;
+		color: #252525;
+		z-index: 9;
+		font-weight: bold;
 	    @include border-radius($half-width); }
 
+	 .reseat-pwd.button-clear-wp{
+		right:17px;
+		bottom:9px}   
+
 	.new-user button {
-	    color:$black; }
+	    color:$white; }
 
 	.item {
 		background-color: transparent; }
+.logo img{
+		max-width:80px; }
+h1.card-title{
+	color:$white;}	
+    .text-input-wp {
+    border: 2px solid rgb(255, 255, 255);}
+
+
 }
+
+
