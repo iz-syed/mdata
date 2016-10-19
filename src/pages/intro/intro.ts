@@ -13,6 +13,11 @@ import { NavController } from 'ionic-angular';
 })
 export class Intro {
 
+  mySlideOptions = {
+    initialSlide: 0,
+    pager:true
+  };
+
 	slides = [
     {
       title: "Sign up Successfully.",
